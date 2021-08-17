@@ -1,52 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-   
-    <title>Order summary component</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-  </head>
-  <body>
-    
-    <main class="card">
-    <div class="img">
-      <img src="illustration-hero.svg" alt="" class="image">
-    </div>
-    <div class="text">
-      <h1 class="title">
-        Order Summary
-      </h1>
-      <p class="para">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-    </div>
-    <div class="inner-card">
-      <img src="icon-music.svg" alt="" class="music-icon">
-      <h4>Annual Plan</h4>
-      <br>
-      <span>$59.99/year</span>
-      <a href="">Change</a>
-    </div>
-    <div class="Proceed-button">
-      <button class="button">
-        <b>Proceed to Payment</b>
-      </button>
-    </div>
-    <div class="cancel">
-      <a href="" class="cancel-order"><b>Cancel Order</b></a>
-    </div>
-  </main>
-
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="stylesheet" href="style.css">
+		<title>Frontend Mentor | Order summary card</title>
+	
+	</head>
+	<body>
+		<div class="card">
+			<img class="img-header" src="illustration-hero.svg" alt="Decoration image">
+			<div class="container">
+				<h2 class="title">Order Summary</h2>
+				<p class="subtitle">You can now listen to millions of songs, audiobooks, and podcasts on any
+					device anywhere you like!</p>
+				<div class="order-articles">
+					<img class="order-icon" src="icon-music.svg" alt="Music Icon">
+					<div class="informations">
+						<h5>Annual Plan</h5>
+						<p>$59.99/year</p>
+					</div>
+					<a class="change-link" href="#">Change</a>
+				</div>
+				<div class="card-buttons">
+					<button class="confirm">Proceed to Payment</button>
+					<a class="cancel" href="#">Cancel Order</a>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
