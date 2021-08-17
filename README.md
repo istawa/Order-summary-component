@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [See solution URL here](https://github.com/istawa/Order-summary-component)
-- Live Site URL: [See live site URL here](https://611a16854a137ef08d77a6de--quizzical-lumiere-f2443c.netlify.app)
+- Live Site URL: [See live site URL here](https://dreamy-newton-8f2ce0.netlify.app)
 
 ## My process
 
